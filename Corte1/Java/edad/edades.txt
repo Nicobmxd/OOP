@@ -1,0 +1,37 @@
+// Archivo: Main.java
+
+class Persona {
+    // Atributos
+    String nombre;
+    int edad;
+
+    // Método (función dentro de la clase)
+    void saludar() {
+        System.out.println("Hola, soy " + nombre + " y tengo " + edad + " años.");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+
+        // Crear objetos (Personas reales)
+        Persona p1 = new Persona();
+        Persona p2 = new Persona();
+        Persona p3 = new Persona();
+
+        // Asignar valores a los atributos
+        p1.nombre = "Nicolas";
+        p1.edad = 19;
+
+        p2.nombre = "Daniel";
+        p2.edad = 21;
+
+        p3.nombre = "Juan Manuel";
+        p3.edad = 24;
+
+        // Llamar el método del objeto
+        p1.saludar();
+        p2.saludar();
+        p3.saludar();
+    }
+}
