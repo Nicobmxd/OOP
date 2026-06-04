@@ -1,0 +1,3 @@
+fecha,hora,idSensor,tipoSensor,valor,unidad,estado
+2026-06-03,23:48:14,S01,VOLTAJE,9.31,V,BATERIA_BAJA
+2026-06-03,23:48:18,S01,TEMPERATURA,67.07,C,NORMAL
